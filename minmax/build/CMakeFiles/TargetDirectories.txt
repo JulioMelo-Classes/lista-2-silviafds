@@ -1,3 +1,0 @@
-/home/silvia/Imagens/lista-2-silviafds/minmax/build/CMakeFiles/rebuild_cache.dir
-/home/silvia/Imagens/lista-2-silviafds/minmax/build/CMakeFiles/edit_cache.dir
-/home/silvia/Imagens/lista-2-silviafds/minmax/build/CMakeFiles/run_tests.dir

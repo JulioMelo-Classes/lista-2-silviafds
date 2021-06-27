@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall   CMakeFiles/run_tests.dir/home/silvia/Imagens/lista-2-silviafds/test_manager/src/test_manager.cpp.o CMakeFiles/run_tests.dir/src/main.cpp.o  -o run_tests 
