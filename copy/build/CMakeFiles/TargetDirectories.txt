@@ -1,3 +1,0 @@
-/home/silvia/Documentos/lista-2-silviafds/copy/build/CMakeFiles/rebuild_cache.dir
-/home/silvia/Documentos/lista-2-silviafds/copy/build/CMakeFiles/edit_cache.dir
-/home/silvia/Documentos/lista-2-silviafds/copy/build/CMakeFiles/run_tests.dir
