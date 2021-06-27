@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../test_manager/include/test_manager.h
+iostream
+-
+iomanip
+-
+algorithm
+-
+string
+-
+unordered_map
+-
+vector
+-
+
+../include/all_any_none_of.h
+utility
+-
+iterator
+-
+algorithm
+-
+
+/home/silvia/Documentos/lista-2-silviafds/all_any_none_of/src/main.cpp
+iostream
+-
+cassert
+-
+random
+-
+iterator
+-
+test_manager.h
+/home/silvia/Documentos/lista-2-silviafds/all_any_none_of/src/test_manager.h
+all_any_none_of.h
+/home/silvia/Documentos/lista-2-silviafds/all_any_none_of/src/all_any_none_of.h
+
