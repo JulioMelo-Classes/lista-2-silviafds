@@ -11,7 +11,10 @@ using std::sort;
 namespace graal {
 
 /*! 
- * TODO: documentação no estilo doxygen
+ * @param first Ponteiro apontando para inicio do range
+ * @param last Ponteiro apontando para fim do range
+ * @param p Função que retorna True se determinada condição é satisfeita e caso contrário não 
+ * @param it1 Iterator que recebe First e retorna it1 quando for True
  */
 template<class InputIt, class UnaryPredicate>
 InputIt find_if(InputIt first, InputIt last, UnaryPredicate p)
