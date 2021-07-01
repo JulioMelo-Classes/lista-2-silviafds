@@ -16,6 +16,9 @@ namespace graal {
  * @param p Função que retorna True se a condição for satisfeita, caso contrário False
  * @param it Iterator que percorre o range
  */
+ /*
+ 15% pela documentação
+ */
 template<class ForwardIt, class UnaryPredicate>
 ForwardIt partition(ForwardIt first, ForwardIt last, UnaryPredicate p)
 {

@@ -17,6 +17,9 @@ namespace graal {
  * @param eq Função que retorna True se o elemento é igual ao segundo e False caso contrário
  * @param it1 Iterator que recebe First e percorre o range. Também usado o elemento na função eq
  */
+ /*
+ 95% faltou documentar o valor de retorno
+ */
 template<class InputIt, class T, class Equal>
 InputIt find(InputIt first, InputIt last, const T& value, Equal eq)
 {

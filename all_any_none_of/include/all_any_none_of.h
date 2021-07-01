@@ -16,6 +16,9 @@ namespace graal {
  * @param p Função que retorna True se a condição está satisfeita e False caso contrário
  * @param it Iterator que vai percorrer o range e passando o elemento em it para a função em busca de satisfazer as condições
  */
+ /*
+ 60% faltou documentar o valor de retorno
+ */
 template<class InputIt, class UnaryPredicate> 
 bool all_of(InputIt first, InputIt last, UnaryPredicate p) 
 { 
@@ -28,7 +31,7 @@ bool all_of(InputIt first, InputIt last, UnaryPredicate p)
         if(p(*it)) { 
             return true; 
         } 
-        return false;
+        return false; //não extamente, isso aqui só vai dar certo se o primeiro elemento for do predicado, nos outros casso dá erado
     } 
 
 }

@@ -18,6 +18,9 @@ namespace graal {
  * @param it2 Iterator que percorre o range
  * @param std::iter_swap Faz a troca dos números quando a condição da função é satisfeita, fazendo o range ficar crescente
  */
+ /*
+ 95% o iter_swap não é um parametro
+ */
 template<class ForwardIt, class Comparison>
 void sort(ForwardIt first, ForwardIt last, Comparison cmp)
 {

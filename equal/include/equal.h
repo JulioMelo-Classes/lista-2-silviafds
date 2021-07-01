@@ -18,13 +18,16 @@ namespace graal {
  * @param eq Função que retorna True se dada condição for satisfeita, caso contrário False
  * @param i Iterador que percorre o range 1 
  */
+ /*
+ 30% pela documentação e pelo trabalho, embora as implementações não estejam corretas
+ */
 template<class InputIt1, class InputIt2, class Equal>
 bool equal(InputIt1 first1, InputIt1 last1, InputIt2 first2, Equal eq)
 {
 
     InputIt1 i;
     for(i = first1; i != last1; i++){
-        if(eq(*i, *first2)){
+        if(eq(*i, *first2)){ //não, essa função só deve retornar true quando todos são iguais, dessa forma ela retorna quando 1 deles é igual
             return true;
         }
         i++;

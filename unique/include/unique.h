@@ -17,6 +17,9 @@ namespace graal {
  * @param it Iterator recebe first, percorre o range enquanto for diferente de last-1
  * @param it2 Iterator recebe first+1 e é usado para comparar com o elemento anterior a ele
  */
+ /*
+ 15% faltou documentar o valor de retorno
+ */
 template<class InputIt, class Equal>
 InputIt unique( InputIt first, InputIt last, Equal eq )
 {
@@ -32,7 +35,7 @@ InputIt unique( InputIt first, InputIt last, Equal eq )
             it2++;
         }
 
-        return it;
+        return it; //vc tá retornando sempre first não vou considerar
 
     } while(it != (last-1));
 

@@ -23,7 +23,9 @@ namespace graal {
  * @return Um std::pair contendo o menor e maior elemento, nesta ordem
  *
  */
-
+/*
+ok realmete é uma forma estranha de fazer
+*/
 template <typename Itr, typename Compare >
 std::pair<Itr, Itr> minmax(Itr first, Itr last, Compare cmp)
 {
@@ -34,6 +36,7 @@ std::pair<Itr, Itr> minmax(Itr first, Itr last, Compare cmp)
   
     for (Itr it = first; it != last; it++){
         for (Itr it2 = first; it2 != last; it2++){
+          //indentação ruim!
         if (cmp(*it2 , *it) && it != it2){ // verificando quantos elementos são menores que it
             quant_menor++;
         }

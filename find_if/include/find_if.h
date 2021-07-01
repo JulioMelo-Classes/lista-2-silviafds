@@ -16,6 +16,9 @@ namespace graal {
  * @param p Função que retorna True se determinada condição é satisfeita e caso contrário não 
  * @param it1 Iterator que recebe First e retorna it1 quando for True
  */
+ /*
+ 95%
+ */
 template<class InputIt, class UnaryPredicate>
 InputIt find_if(InputIt first, InputIt last, UnaryPredicate p)
 {

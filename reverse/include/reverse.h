@@ -19,6 +19,9 @@ namespace graal {
    @param tam_dividido Variável inteira com finalidade de guardar a metade do valor de range
    @param std::iter_swap Utilizada para fazer as trocas dos elementos do range
  */
+ /*
+ 95% o iter_swap não é um parametro
+ */
 template<class BidirIt>
 void reverse(BidirIt first, BidirIt last)
 {

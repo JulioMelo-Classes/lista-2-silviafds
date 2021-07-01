@@ -17,6 +17,9 @@ namespace graal {
    @param d_first Ponteiro que aponta o novo valor no inicio do range
    @return Um return first Retorno da função
  */
+ /*
+ blz
+ */
 template<class InputIt>
 InputIt copy(InputIt first, InputIt last, InputIt d_first){
     InputIt i;
